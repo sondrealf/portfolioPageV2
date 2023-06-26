@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
+import github from "../assets/img/github.svg";
 
 export const Footer = () => {
   return (
@@ -23,8 +24,14 @@ export const Footer = () => {
                 marginTop: "20px",
               }}
             >
-              <a href="https://www.linkedin.com/in/sondre-alfnes-2243331b3/">
+              <a
+                href="https://www.linkedin.com/in/sondre-alfnes-2243331b3/"
+                style={{ marginRight: "10px" }}
+              >
                 <img src={navIcon1} alt="" />
+              </a>
+              <a href="https://github.com/sondrealf">
+                <img src={github} alt="" />
               </a>
             </div>
           </Col>
