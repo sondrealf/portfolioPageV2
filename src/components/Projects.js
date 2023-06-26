@@ -1,8 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/vamos.png";
+import portfoliov2 from "../assets/img/portfoliov2.png";
+import portfoliov1 from "../assets/img/portfoliov1.png";
+import cvSite from "../assets/img/cvSite.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -10,34 +11,28 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Portfolio v2",
+      description: "This website",
+      imgUrl: portfoliov2,
+      siteUrl: "#",
+    },
+    {
+      title: "Backpack Trip",
+      description: "Design & Development of a travel website",
       imgUrl: projImg1,
+      siteUrl: "https://pu.alfnes.dev/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Portfolio v1",
+      description: "My first portfolio website",
+      imgUrl: portfoliov1,
+      siteUrl: "https://old.alfnes.dev/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "CV Site",
+      description: "My CV website",
+      imgUrl: cvSite,
+      siteUrl: "https://cv.alfnes.dev/",
     },
   ];
 
