@@ -46,11 +46,11 @@ export const Skills = () => {
                   <h5>NextJs</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
+                  <img src={meter1} alt="Image" />
                   <h5>ExpressJs</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter2} alt="Image" />
                   <h5>AWS</h5>
                 </div>
                 <div className="item">
@@ -58,15 +58,15 @@ export const Skills = () => {
                   <h5>NestJs</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter2} alt="Image" />
                   <h5>Firebase</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter3} alt="Image" />
                   <h5>Remix</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter2} alt="Image" />
                   <h5>Storybook</h5>
                 </div>
               </Carousel>
