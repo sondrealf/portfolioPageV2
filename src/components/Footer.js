@@ -15,7 +15,15 @@ export const Footer = () => {
               marginTop: "20px",
             }}
           >
-            <img src={logo} alt="Logo" />
+            <p
+              style={{ 
+                fontSize: "1.5rem",
+                fontWeight: "bold",
+                color: "#fff",
+              }}
+            >
+              SONDRE ALFNES
+            </p>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div
